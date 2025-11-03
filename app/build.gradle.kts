@@ -58,4 +58,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // Untuk konversi JSON dasar
+    implementation("com.squareup.moshi:moshi:1.15.1")
+// Untuk membantu Moshi bekerja dengan kelas data Kotlin
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
 }
